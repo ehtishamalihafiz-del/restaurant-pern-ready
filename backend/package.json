@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-pern-backend",
+  "version": "1.0.0",
+  "description": "Express backend for restaurant PERN/Supabase project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "morgan": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
