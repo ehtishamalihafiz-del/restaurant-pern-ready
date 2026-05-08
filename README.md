@@ -40,13 +40,13 @@ SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 Backend runs on:
 
 ```text
-http://localhost:5000
+http://https://restaurant-backend-83r8.onrender.com
 ```
 
 Menu API:
 
 ```text
-http://localhost:5000/api/menu
+http://https://restaurant-backend-83r8.onrender.com/api/menu
 ```
 
 ## 3. Frontend Local Setup
@@ -61,7 +61,7 @@ npm run dev
 Edit frontend `.env`:
 
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=http://https://restaurant-backend-83r8.onrender.com/api
 ```
 
 Frontend runs on:
