@@ -69,6 +69,10 @@ function FoodCard({ item }) {
 
     setAdded(true)
     setTimeout(() => setAdded(false), 1200)
+
+    if (window.innerWidth <= 768) {
+      navigate('/cart')
+    }
   }
 
   const isJustAdded = lastAdded === item.id || added
